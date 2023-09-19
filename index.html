@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sleep Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Sleep Tracker</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <label for="hours">Hours of Sleep:</label>
+            <input type="number" id="hours" min="0" max="24">
+            <button id="add-sleep">Add Sleep</button>
+        </section>
+        <section class="sleep-log">
+            <h2>Sleep Log</h2>
+            <ul id="sleep-list"></ul>
+        </section>
+
+        <!-- Inside the main section of your HTML -->
+        <!-- Inside the main section of your HTML -->
+        <section class="sleep-goals">
+            <h2>Sleep Goals</h2>
+            <p>Set your sleep duration goal:</p>
+            <input type="number" id="sleep-goal" min="1" max="24" placeholder="Hours">
+            <button id="set-goal">Set Goal</button>
+            <p id="goal-status"></p>
+            <h3>Recommendation:</h3>
+            <p id="recommendation"></p>
+        </section>>
+
+  <!-- Inside the main section of your HTML -->
+        <section class="sleep-challenges">
+    <h2>Sleep Challenges</h2>
+    <ul id="challenge-list">
+        <!-- List of sleep challenges will go here -->
+    </ul>
+    <input type="text" id="challenge-input" placeholder="Enter a challenge">
+    <button id="create-challenge">Create Challenge</button>
+</section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
